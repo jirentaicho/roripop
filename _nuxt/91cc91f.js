@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{319:function(n,t,e){"use strict";e.r(t);var o={props:["posts"]},l=e(37),component=Object(l.a)(o,(function(){var n=this,t=n.$createElement,e=n._self._c||t;return e("div",[e("h1",[n._v("UNKO")]),n._v("\n  "+n._s(n.posts)+"\n")])}),[],!1,null,null,null);t.default=component.exports}}]);
