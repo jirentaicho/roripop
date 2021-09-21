@@ -1,13 +1,17 @@
-# ロリポップデプロイ用
+# セットアップ
 
-常夏！
+予めdistフォルダをpushできるようにgitのセットアップを行います。
 
-かのん
+> git init
 
-# 事前準備
+> /nuxtapps/work/nuxtpress/result (master)
+> $ git remote add origin https://github.com/jirentaicho/roripop
 
-予めdistフォルダに対してgitのセットアップを行います。
-ルートディレクトリから以下コマンドを実行する
+※ npm run generateをすると出力先のフォルダが一旦全て消えるので、出力にフォルダを１つはさんでいます。 result/dist
+resultの中でgitを管理しています。
 
-> npx gulp
+
+> git pull origin main
+
+> git checkout main
 
